@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ME.js", "ME.js", "{CF97F4C0-CE0A-4916-866A-CA39D4FF6B27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{DEB4F004-A082-465F-98B2-8D9C8753E687}"
+	ProjectSection(SolutionItems) = preProject
+		ME.js\css\base.css = ME.js\css\base.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{F42FF727-2572-40B2-A8A2-BA7F4D2ACA4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{4B3EA63A-1622-4A45-83FC-858601C5E277}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{257F75C1-8357-465A-8C48-D714D2F30133}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ME.js", "ME.js", "{141793BD-C90C-4904-9BBF-FC3D9AEDF86B}"
+	ProjectSection(SolutionItems) = preProject
+		ME.js\scripts\ME.js\core.js = ME.js\scripts\ME.js\core.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{7406A5D3-2523-405B-A055-D57169ED3553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ME.js Sample Website", "ME.js Sample Website\ME.js Sample Website.csproj", "{CE70041B-348B-44B4-AAE6-E2EE1EC3E81E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{897C2A4D-6E8B-4AEE-A400-61AB6B8E4C3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE70041B-348B-44B4-AAE6-E2EE1EC3E81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE70041B-348B-44B4-AAE6-E2EE1EC3E81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE70041B-348B-44B4-AAE6-E2EE1EC3E81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE70041B-348B-44B4-AAE6-E2EE1EC3E81E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEB4F004-A082-465F-98B2-8D9C8753E687} = {CF97F4C0-CE0A-4916-866A-CA39D4FF6B27}
+		{F42FF727-2572-40B2-A8A2-BA7F4D2ACA4B} = {CF97F4C0-CE0A-4916-866A-CA39D4FF6B27}
+		{4B3EA63A-1622-4A45-83FC-858601C5E277} = {CF97F4C0-CE0A-4916-866A-CA39D4FF6B27}
+		{7406A5D3-2523-405B-A055-D57169ED3553} = {CF97F4C0-CE0A-4916-866A-CA39D4FF6B27}
+		{897C2A4D-6E8B-4AEE-A400-61AB6B8E4C3F} = {CF97F4C0-CE0A-4916-866A-CA39D4FF6B27}
+		{257F75C1-8357-465A-8C48-D714D2F30133} = {F42FF727-2572-40B2-A8A2-BA7F4D2ACA4B}
+		{141793BD-C90C-4904-9BBF-FC3D9AEDF86B} = {F42FF727-2572-40B2-A8A2-BA7F4D2ACA4B}
+	EndGlobalSection
+EndGlobal
